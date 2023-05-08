@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from './Home';
-import Navbar from './Navbar';
-import Ref from './ref';
+import Home from "./Home";
+import Navbar from "./Navbar";
+import Ref from "./ref";
 import Context from "./context";
-import Memo from './memo';
+import Memo from "./memo";
 import Callback from "./callback";
-import Reducer from './reducer';
+import Reducer from "./reducer";
 import Custom from "./custom";
 import More from "./more";
 

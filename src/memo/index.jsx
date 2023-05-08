@@ -1,5 +1,5 @@
-import React, { useState, useMemo } from 'react';
-import { Div, Input } from '../styles';
+import React, { useState, useMemo } from "react";
+import { Div, Input } from "../styles";
 import MemoEx2 from "./MemoEx2";
 
 const hardCalculate = (number) => {
@@ -11,7 +11,7 @@ const hardCalculate = (number) => {
 };
 
 const easyCalculate = (number) => {
-  console.log('easy');
+  console.log("easy");
   return number + 1;
 };
 

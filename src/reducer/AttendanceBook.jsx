@@ -1,6 +1,6 @@
 import React, { useState, useReducer } from "react";
 import { Div, Input, Button, P, Span } from "../styles";
-import Student from './Student';
+import Student from "./Student";
 
 const reducer = (state, action) => {
   switch (action.type) {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { Div, Span, Button, P } from "../styles";
 
 const Student = ({ name, dispatch, id, isHere }) => {

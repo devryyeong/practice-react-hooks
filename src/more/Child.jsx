@@ -1,7 +1,7 @@
-import React, {memo} from 'react';
+import React, {memo} from "react";
 import { Div, Span, Button } from "../styles";
 
-/** Child 컴포넌트는 props로 받는 name, age가 변하지 않으면 다시 렌더링될 필요가 없음. */
+/** Child 컴포넌트는 props로 받는 name, age가 변하지 않으면 다시 렌더링될 필요가 없음 */
 const Child = ({ name, age, tellMe }) => {
   console.log("Child rendered too");
   return (

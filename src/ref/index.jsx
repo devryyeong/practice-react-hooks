@@ -1,6 +1,6 @@
-import { useState, useRef, useEffect } from 'react';
-import { P, Button } from '../styles';
-import LoginEx from './LoginEx';
+import { useState, useRef, useEffect } from "react";
+import { P, Button } from "../styles";
+import LoginEx from "./LoginEx";
 
 const Index = () => {
   const [count, setCount] = useState(0);
